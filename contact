@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putter's Village</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Adamina">
+    <link rel="stylesheet" href="assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css">
+    <link rel="stylesheet" href="assets/css/Dark-NavBar.css">
+    <link rel="stylesheet" href="assets/css/Dark-NavBar.css">
+    <link rel="stylesheet" href="assets/css/Dark-NavBar.css">
+    <link rel="stylesheet" href="assets/css/Hero-Technology.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Map-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="width:100%;">
+            <div class="container"><a class="navbar-brand" href="#" style="height:129px;margin-top:-87px;"><img src="assets/img/c49941c7-0b23-42d6-b5df-0120f406beac.png"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation" data-bs-hover-animate="pulse"><a class="nav-link" href="index.html" style="color:#000000;">&nbsp;Home</a></li>
+                        <li class="nav-item" role="presentation" data-bs-hover-animate="pulse"><a class="nav-link" href="contact.html" style="color:#000000;">Contact Us</a></li>
+                        <li class="nav-item" role="presentation" data-bs-hover-animate="pulse"><a class="nav-link" href="http://www.countrysweep.com/index.html" target="_blank" style="color:#000000;">Country Sweep</a></li>
+                    </ul>
+            </div>
+    </div>
+    </nav>
+    </div>
+    <div>
+        <div class="container-fluid">
+            <h1>Contact Information</h1>
+            <hr>
+            <form action="mailto:contrysweep@gmail.com" method="post" id="contactForm"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden"
+                    name="to" value="email@awebsite.com">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div id="successfail"></div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-12 col-md-6" id="message">
+                        <h2 class="h4"><i class="fa fa-envelope"></i> Contact Us<small><small class="required-input">&nbsp;(*required)</small></small>
+                        </h2>
+                        <div class="form-group"><label for="from-name">Name</label><span class="required-input">*</span>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-user-o"></i></span></div><input class="form-control" type="text" name="name" required="" placeholder="Full Name" id="from-name"></div>
+                        </div>
+                        <div class="form-group"><label for="from-email">Email</label><span class="required-input">*</span>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="text" name="email" required="" placeholder="Email Address" id="from-email"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                <div class="form-group"><label for="from-phone">Phone</label><span class="required-input">*</span>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" name="phone" required="" placeholder="Primary Phone" id="from-phone"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                <div class="form-group"><label for="from-calltime">Best Time to Call</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-clock-o"></i></span></div><select class="form-control" name="call time" id="from-calltime"><optgroup label="Best Time to Call"><option value="Morning" selected="">Morning</option><option value="Afternoon">Afternoon</option><option value="Evening">Evening</option></optgroup></select></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group"><label for="from-comments">Comments</label><textarea class="form-control" rows="5" name="comments" placeholder="Enter Comments" id="from-comments"></textarea></div>
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col"><button class="btn btn-primary btn-block" type="reset"><i class="fa fa-undo"></i> Reset</button></div>
+                                <div class="col"><button class="btn btn-primary btn-block" type="submit" data-bs-hover-animate="bounce">Submit <i class="fa fa-chevron-circle-right"></i></button></div>
+                            </div>
+                        </div>
+                        <hr class="d-flex d-md-none">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-row">
+                            <div class="col-12">
+                                <div class="static-map"><a href="https://www.google.com/maps/place/Daytona+International+Speedway/@29.1815062,-81.0744275,15z/data=!4m13!1m7!3m6!1s0x88e6d935da1cced3:0xa6b3e1bc0f2fc83a!2s1801+W+International+Speedway+Blvd,+Daytona+Beach,+FL+32114!3b1!8m2!3d29.187028!4d-81.0703076!3m4!1s0x88e6d949a4cb8593:0x1387c6c0b5c8cc97!8m2!3d29.1851681!4d-81.0705292"
+                                        target="_blank" rel="noopener"> </a></div><img src="assets/img/020 (11) (1).jpg" style="width:100%;"></div>
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <h2 class="h4"><i class="fa fa-user"></i> Our Info</h2>
+                                <div><span><strong>Putter's Village</strong><br></span></div>
+                                <div><span>countrysweep@gmail.com</span></div>
+                                <div><span>www.puttersvillage.club</span></div>
+                                <hr class="d-sm-none d-md-block d-lg-none">
+                            </div>
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <h2 class="h4"><i class="fa fa-location-arrow"></i> Our Address</h2>
+                                <div><span><strong>Putter's Village</strong><br></span></div>
+                                <div><span>19 Center St.</span></div>
+                                <div><span>Wolfeboro, NH 03894</span></div>
+                                <div><span>(603) 569 - 6715</span></div>
+                                <div></div>
+                                <hr class="d-sm-none">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal1">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Contact Information</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <form action="javascript:void(0);" method="get" id="contactForm"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control"
+                                type="hidden" name="to" value="email@awebsite.com">
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div id="successfail"></div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-12 col-md-6" id="message">
+                                    <h2 class="h4"><i class="fa fa-envelope"></i> Contact Us<small><small class="required-input">&nbsp;(*required)</small></small>
+                                    </h2>
+                                    <div class="form-group"><label for="from-name">Name</label><span class="required-input">*</span>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-user-o"></i></span></div><input class="form-control" type="text" name="name" required="" placeholder="Full Name" id="from-name"></div>
+                                    </div>
+                                    <div class="form-group"><label for="from-email">Email</label><span class="required-input">*</span>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="text" name="email" required="" placeholder="Email Address" id="from-email"></div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                            <div class="form-group"><label for="from-phone">Phone</label><span class="required-input">*</span>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" name="phone" required="" placeholder="Primary Phone" id="from-phone"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                            <div class="form-group"><label for="from-calltime">Best Time to Call</label>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-clock-o"></i></span></div><select class="form-control" name="call time" id="from-calltime"><optgroup label="Best Time to Call"><option value="Morning" selected="">Morning</option><option value="Afternoon">Afternoon</option><option value="Evening">Evening</option></optgroup></select></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group"><label for="from-comments">Comments</label><textarea class="form-control" rows="5" name="comments" placeholder="Enter Comments" id="from-comments"></textarea></div>
+                                    <div class="form-group">
+                                        <div class="form-row">
+                                            <div class="col"><button class="btn btn-primary btn-block" type="reset"><i class="fa fa-undo"></i> Reset</button></div>
+                                            <div class="col"><button class="btn btn-primary btn-block" type="submit">Submit <i class="fa fa-chevron-circle-right"></i></button></div>
+                                        </div>
+                                    </div>
+                                    <hr class="d-flex d-md-none">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <h2 class="h4"><i class="fa fa-location-arrow"></i> Locate Us</h2>
+                                    <div class="form-row">
+                                        <div class="col-12">
+                                            <div class="static-map"><a href="https://www.google.com/maps/place/Daytona+International+Speedway/@29.1815062,-81.0744275,15z/data=!4m13!1m7!3m6!1s0x88e6d935da1cced3:0xa6b3e1bc0f2fc83a!2s1801+W+International+Speedway+Blvd,+Daytona+Beach,+FL+32114!3b1!8m2!3d29.187028!4d-81.0703076!3m4!1s0x88e6d949a4cb8593:0x1387c6c0b5c8cc97!8m2!3d29.1851681!4d-81.0705292"
+                                                    target="_blank" rel="noopener"> <img class="img-fluid" src="http://maps.googleapis.com/maps/api/staticmap?autoscale=2&amp;size=600x210&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C582+19+Center+Street+Wolfeboro+NH+03894&amp;zoom=12" alt="Google Map of Daytona International Speedway"></a></div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-12 col-lg-6">
+                                            <h2 class="h4"><i class="fa fa-user"></i> Our Info</h2>
+                                            <div><span><strong>Name</strong></span></div>
+                                            <div><span>email@awebsite.com</span></div>
+                                            <div><span>www.awebsite.com</span></div>
+                                            <hr class="d-sm-none d-md-block d-lg-none">
+                                        </div>
+                                        <div class="col-sm-6 col-md-12 col-lg-6">
+                                            <h2 class="h4"><i class="fa fa-location-arrow"></i> Our Address</h2>
+                                            <div><span><strong>Office Name</strong></span></div>
+                                            <div><span>55 Icannot Dr</span></div>
+                                            <div><span>Daytone Beach, FL 85150</span></div>
+                                            <div><abbr data-toggle="tooltip" data-placement="top" title="Office Phone: 555-867-5309">O:</abbr> 555-867-5309</div>
+                                            <hr class="d-sm-none">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map-clean">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center h4"><i class="fa fa-location-arrow"></i> Locate Us</h2>
+            </div>
+        </div><iframe allowfullscreen="" frameborder="0" width="100%" height="450" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB8ZpV2-fTAX24C2ElbYn2LFKbJAYVGEcE&amp;q=19+Center+St.+Wolfeboro+NH+93894&amp;zoom=15"></iframe></div>
+    <footer data-aos="zoom-in-up"
+        id="price" class="bg-dark text-white border-top border-info">
+        <div class="container text-center text-sm-left position-relative py-5">
+            <div class="row">
+                <div class="col-sm-6 col-md-3" data-bs-hover-animate="bounce">
+                    <h3 class="text-info pb-2 border-bottom border-info">Hours</h3>
+                    <ul class="list-unstyled d-block d-sm-block">
+                        <li class="mb-2">Saturday &nbsp;10 am - 9 pm<br></li>
+                    </ul>
+                    <ul class="list-unstyled d-block d-sm-block">
+                        <li class="mb-2">Sunday &nbsp;1 am - 7 pm<br></li>
+                    </ul>
+                    <ul class="list-unstyled d-block d-sm-block"></ul>
+                </div>
+                <div class="col-sm-6 col-md-3" data-bs-hover-animate="bounce">
+                    <h3 class="text-info pb-2 border-bottom border-info">Prices</h3>
+                    <ul class="list-unstyled d-inline-block d-sm-block">
+                        <li class="mb-2">Adults: $5.00</li>
+                        <li class="mb-2">Children 6 and Under $3.00</li>
+                        <li class="mb-2">2nd Round $2.50</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3" data-bs-hover-animate="bounce">
+                    <h3 class="text-info pb-2 border-bottom border-info"><a class="text-light" href="contact.html">Contact Us</a></h3>
+                    <ul class="list-unstyled d-inline-block d-sm-block">
+                        <li class="mb-2">(603) 569 - 6715</li>
+                        <li class="mb-2"></li>
+                        <li class="mb-2">19 Center Street</li>
+                        <li class="mb-2">Wolfeboro, NH 03894</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3" data-bs-hover-animate="bounce">
+                    <h3 class="text-info pb-2 border-bottom border-info">Social Media</h3>
+                    <ul class="list-unstyled d-inline-block d-sm-block">
+                        <li class="mb-2"></li>
+                    </ul><a href="http://www.facebook.com/PuttersVillage/" target="_blank">Facebook</a></div>
+            </div>
+            <div class="text-center position-absolute w-100 mt-4"><a href="#top"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-dark"></i><i class="fa fa-angle-up fa-stack-1x text-white"></i></span></a></div>
+        </div>
+        <div class="pt-5 pb-4 bg-info text-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 text-center text-md-left pb-4">
+                        <h2 class="mb-3" style="font-family:Adamina, serif;">&nbsp;Putter's Village</h2>
+                        <p class="mb-1"><i class="fa fa-map-marker fa-fw"></i>&nbsp;19 Center St. Wolfeboro, NH 03894</p>
+                        <p class="mb-1"><i class="fa fa-phone fa-fw"></i>&nbsp;+(603) 569 - 6715</p>
+                        <p class="mb-1"><i class="fa fa-envelope fa-fw"></i>&nbsp;<a href="mailto:contact@company.com" class="text-dark">countrysweep@gmail.com</a></p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 text-center text-md-left pb-4">
+                        <p class="my-3">Putter's Village is a challenging 18 - hole miniature golf course for the whole family. We feature unique, hand-crafted buildings and local monuments.&nbsp;</p>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-right pb-4">
+                        <h3 class="mb-0">Follow us</h3>
+                        <form class="d-flex justify-content-center justify-content-lg-end">
+                            <div class="form-group w-75">
+                                <div class="input-group">
+                                    <div class="input-group-append"></div>
+                                </div>
+                            </div>
+                        </form>
+                        <div><a href="http://www.facebook.com/PuttersVillage/" target="_blank" class="text-dark mx-2 mx-lg-0 ml-lg-3"><i class="fa fa-facebook-square fa-2x"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-lg-left py-2 small bg-dark text-info font-italic">
+            <div class="container">
+                <p class="m-0">© 2018 Putter's Village ~ All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/Contact-Form-v2-Modal--Full-with-Google-Map.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+</body>
+
+</html>
